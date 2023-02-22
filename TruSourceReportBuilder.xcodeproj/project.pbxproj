@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00188C7F24674D890060B2D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00188C7E24674D890060B2D9 /* AppDelegate.swift */; };
+		00188C8124674D890060B2D9 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00188C8024674D890060B2D9 /* MainController.swift */; };
+		00188C8424674D890060B2D9 /* TruSourceReportBuilder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00188C8224674D890060B2D9 /* TruSourceReportBuilder.xcdatamodeld */; };
+		00188C8624674D8A0060B2D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00188C8524674D8A0060B2D9 /* Assets.xcassets */; };
+		00188C8924674D8A0060B2D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00188C8724674D8A0060B2D9 /* Main.storyboard */; };
+		001C202D24C8A2BB004D9804 /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 001C202C24C8A2BB004D9804 /* notes.txt */; };
+		0022B414247A092D0093E9A7 /* ReportDescriptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022B413247A092D0093E9A7 /* ReportDescriptionController.swift */; };
+		002FF829249E505D00C3F05D /* FilterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002FF827249E505D00C3F05D /* FilterItem.swift */; };
+		002FF82A249E505D00C3F05D /* FilterItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 002FF828249E505D00C3F05D /* FilterItem.xib */; };
+		0031314C248174A20053EBB6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0031314B248174A20053EBB6 /* GoogleService-Info.plist */; };
+		003354F7247EBB410002A220 /* ReportDescriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003354F6247EBB410002A220 /* ReportDescriptionManager.swift */; };
+		0033DF182470A52B007E21B8 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033DF172470A52B007E21B8 /* APIManager.swift */; };
+		0033DF1A2470A557007E21B8 /* ReportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033DF192470A557007E21B8 /* ReportManager.swift */; };
+		003BD3CD246856A8000730CA /* LinkHelpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003BD3CC246856A8000730CA /* LinkHelpController.swift */; };
+		003BD3D0246857AC000730CA /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003BD3CE246857AC000730CA /* InputViewController.swift */; };
+		003BD3D32468649F000730CA /* Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003BD3D22468649F000730CA /* Segue.swift */; };
+		00417B662475F6B1001FC94C /* Lead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00417B652475F6B1001FC94C /* Lead.swift */; };
+		00E8989A24985FF500D2E778 /* ReportSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8989824985FF500D2E778 /* ReportSelectionController.swift */; };
+		00E8989D2498602A00D2E778 /* FilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8989C2498602A00D2E778 /* FilterController.swift */; };
+		00E898A02498605F00D2E778 /* ShowDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E8989E2498605F00D2E778 /* ShowDataController.swift */; };
+		00E898A3249860F400D2E778 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E898A2249860F400D2E778 /* Filter.swift */; };
+		00F1A32D24736319004896B9 /* APIUploadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1A32B24736319004896B9 /* APIUploadController.swift */; };
+		00FA4F8A249D6FEF006B5F5A /* ReportTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FA4F89249D6FEF006B5F5A /* ReportTypes.swift */; };
+		00FA4F8C249D745C006B5F5A /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FA4F8B249D745C006B5F5A /* Alert.swift */; };
+		00FBA6F624A2515200871D9D /* verticalAlignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FBA6F524A2515200871D9D /* verticalAlignTextField.swift */; };
+		00FBA6F824A2A2CE00871D9D /* FilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FBA6F724A2A2CE00871D9D /* FilterManager.swift */; };
+		00FDCC03246F50F300DBC543 /* OutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FDCC01246F50F300DBC543 /* OutputViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00188C7B24674D890060B2D9 /* TruSourceReportBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruSourceReportBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00188C7E24674D890060B2D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00188C8024674D890060B2D9 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		00188C8324674D890060B2D9 /* TruSourceReportBuilder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TruSourceReportBuilder.xcdatamodel; sourceTree = "<group>"; };
+		00188C8524674D8A0060B2D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00188C8824674D8A0060B2D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00188C8A24674D8A0060B2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00188C8B24674D8A0060B2D9 /* TruSourceReportBuilder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TruSourceReportBuilder.entitlements; sourceTree = "<group>"; };
+		001C202C24C8A2BB004D9804 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
+		0022B413247A092D0093E9A7 /* ReportDescriptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportDescriptionController.swift; sourceTree = "<group>"; };
+		002FF827249E505D00C3F05D /* FilterItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterItem.swift; sourceTree = "<group>"; };
+		002FF828249E505D00C3F05D /* FilterItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterItem.xib; sourceTree = "<group>"; };
+		0031314B248174A20053EBB6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		003354F6247EBB410002A220 /* ReportDescriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportDescriptionManager.swift; sourceTree = "<group>"; };
+		0033DF172470A52B007E21B8 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		0033DF192470A557007E21B8 /* ReportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportManager.swift; sourceTree = "<group>"; };
+		003BD3CC246856A8000730CA /* LinkHelpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkHelpController.swift; sourceTree = "<group>"; };
+		003BD3CE246857AC000730CA /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		003BD3D22468649F000730CA /* Segue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segue.swift; sourceTree = "<group>"; };
+		00417B652475F6B1001FC94C /* Lead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lead.swift; sourceTree = "<group>"; };
+		00C0015B248426ED00422782 /* my.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = my.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		00D05C2B2469B379004A7027 /* TruSourceReportBuilderRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TruSourceReportBuilderRelease.entitlements; sourceTree = "<group>"; };
+		00E8989824985FF500D2E778 /* ReportSelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportSelectionController.swift; sourceTree = "<group>"; };
+		00E8989C2498602A00D2E778 /* FilterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterController.swift; sourceTree = "<group>"; };
+		00E8989E2498605F00D2E778 /* ShowDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataController.swift; sourceTree = "<group>"; };
+		00E898A2249860F400D2E778 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		00F1A32B24736319004896B9 /* APIUploadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUploadController.swift; sourceTree = "<group>"; };
+		00FA4F89249D6FEF006B5F5A /* ReportTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTypes.swift; sourceTree = "<group>"; };
+		00FA4F8B249D745C006B5F5A /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		00FBA6F524A2515200871D9D /* verticalAlignTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verticalAlignTextField.swift; sourceTree = "<group>"; };
+		00FBA6F724A2A2CE00871D9D /* FilterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterManager.swift; sourceTree = "<group>"; };
+		00FDCC01246F50F300DBC543 /* OutputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00188C7824674D890060B2D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00188C7224674D890060B2D9 = {
+			isa = PBXGroup;
+			children = (
+				00188C7D24674D890060B2D9 /* TruSourceReportBuilder */,
+				00188C7C24674D890060B2D9 /* Products */,
+				00C0015B248426ED00422782 /* my.playground */,
+			);
+			sourceTree = "<group>";
+		};
+		00188C7C24674D890060B2D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00188C7B24674D890060B2D9 /* TruSourceReportBuilder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00188C7D24674D890060B2D9 /* TruSourceReportBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				001C202C24C8A2BB004D9804 /* notes.txt */,
+				005B70D324ACE8CD0027A3E0 /* FilterItem */,
+				002FF826249E500D00C3F05D /* Filtering */,
+				00E8989724985FB700D2E778 /* Selection */,
+				003BD3CA246855AA000730CA /* Main */,
+				003BD3CB246855B4000730CA /* Input */,
+				00FDCBFE246F4ED800DBC543 /* Output */,
+				00F1A32A247362E8004896B9 /* API */,
+				0028F21A246C4FC600082345 /* Misc */,
+				00188C7E24674D890060B2D9 /* AppDelegate.swift */,
+				00188C8524674D8A0060B2D9 /* Assets.xcassets */,
+				00188C8724674D8A0060B2D9 /* Main.storyboard */,
+				00188C8A24674D8A0060B2D9 /* Info.plist */,
+				0031314B248174A20053EBB6 /* GoogleService-Info.plist */,
+				00188C8B24674D8A0060B2D9 /* TruSourceReportBuilder.entitlements */,
+				00D05C2B2469B379004A7027 /* TruSourceReportBuilderRelease.entitlements */,
+				00188C8224674D890060B2D9 /* TruSourceReportBuilder.xcdatamodeld */,
+			);
+			path = TruSourceReportBuilder;
+			sourceTree = "<group>";
+		};
+		0028F21A246C4FC600082345 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				003BD3D22468649F000730CA /* Segue.swift */,
+				00E8989E2498605F00D2E778 /* ShowDataController.swift */,
+				00FA4F8B249D745C006B5F5A /* Alert.swift */,
+				00FBA6F524A2515200871D9D /* verticalAlignTextField.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		002FF826249E500D00C3F05D /* Filtering */ = {
+			isa = PBXGroup;
+			children = (
+				00E8989C2498602A00D2E778 /* FilterController.swift */,
+				00FBA6F724A2A2CE00871D9D /* FilterManager.swift */,
+				00E898A2249860F400D2E778 /* Filter.swift */,
+			);
+			path = Filtering;
+			sourceTree = "<group>";
+		};
+		003BD3CA246855AA000730CA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				00188C8024674D890060B2D9 /* MainController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		003BD3CB246855B4000730CA /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				003BD3CE246857AC000730CA /* InputViewController.swift */,
+				0022B413247A092D0093E9A7 /* ReportDescriptionController.swift */,
+				003354F6247EBB410002A220 /* ReportDescriptionManager.swift */,
+				003BD3CC246856A8000730CA /* LinkHelpController.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		005B70D324ACE8CD0027A3E0 /* FilterItem */ = {
+			isa = PBXGroup;
+			children = (
+				002FF827249E505D00C3F05D /* FilterItem.swift */,
+				002FF828249E505D00C3F05D /* FilterItem.xib */,
+			);
+			path = FilterItem;
+			sourceTree = "<group>";
+		};
+		00E8989724985FB700D2E778 /* Selection */ = {
+			isa = PBXGroup;
+			children = (
+				00E8989824985FF500D2E778 /* ReportSelectionController.swift */,
+				00FA4F89249D6FEF006B5F5A /* ReportTypes.swift */,
+			);
+			path = Selection;
+			sourceTree = "<group>";
+		};
+		00F1A32A247362E8004896B9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				00F1A32B24736319004896B9 /* APIUploadController.swift */,
+				0033DF172470A52B007E21B8 /* APIManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		00FDCBFE246F4ED800DBC543 /* Output */ = {
+			isa = PBXGroup;
+			children = (
+				00FDCC01246F50F300DBC543 /* OutputViewController.swift */,
+				0033DF192470A557007E21B8 /* ReportManager.swift */,
+				00417B652475F6B1001FC94C /* Lead.swift */,
+			);
+			path = Output;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00188C7A24674D890060B2D9 /* TruSourceReportBuilder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00188C8E24674D8A0060B2D9 /* Build configuration list for PBXNativeTarget "TruSourceReportBuilder" */;
+			buildPhases = (
+				00188C7724674D890060B2D9 /* Sources */,
+				00188C7824674D890060B2D9 /* Frameworks */,
+				00188C7924674D890060B2D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TruSourceReportBuilder;
+			productName = TruSourceReportBuilder;
+			productReference = 00188C7B24674D890060B2D9 /* TruSourceReportBuilder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00188C7324674D890060B2D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Ben Schwartz";
+				TargetAttributes = {
+					00188C7A24674D890060B2D9 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 00188C7624674D890060B2D9 /* Build configuration list for PBXProject "TruSourceReportBuilder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00188C7224674D890060B2D9;
+			productRefGroup = 00188C7C24674D890060B2D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00188C7A24674D890060B2D9 /* TruSourceReportBuilder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00188C7924674D890060B2D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002FF82A249E505D00C3F05D /* FilterItem.xib in Resources */,
+				00188C8624674D8A0060B2D9 /* Assets.xcassets in Resources */,
+				001C202D24C8A2BB004D9804 /* notes.txt in Resources */,
+				00188C8924674D8A0060B2D9 /* Main.storyboard in Resources */,
+				0031314C248174A20053EBB6 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00188C7724674D890060B2D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E8989D2498602A00D2E778 /* FilterController.swift in Sources */,
+				00FDCC03246F50F300DBC543 /* OutputViewController.swift in Sources */,
+				00E898A02498605F00D2E778 /* ShowDataController.swift in Sources */,
+				00FBA6F624A2515200871D9D /* verticalAlignTextField.swift in Sources */,
+				00188C8124674D890060B2D9 /* MainController.swift in Sources */,
+				003BD3D0246857AC000730CA /* InputViewController.swift in Sources */,
+				00FA4F8C249D745C006B5F5A /* Alert.swift in Sources */,
+				0033DF1A2470A557007E21B8 /* ReportManager.swift in Sources */,
+				003354F7247EBB410002A220 /* ReportDescriptionManager.swift in Sources */,
+				00417B662475F6B1001FC94C /* Lead.swift in Sources */,
+				0033DF182470A52B007E21B8 /* APIManager.swift in Sources */,
+				00FA4F8A249D6FEF006B5F5A /* ReportTypes.swift in Sources */,
+				00188C7F24674D890060B2D9 /* AppDelegate.swift in Sources */,
+				00FBA6F824A2A2CE00871D9D /* FilterManager.swift in Sources */,
+				002FF829249E505D00C3F05D /* FilterItem.swift in Sources */,
+				00E8989A24985FF500D2E778 /* ReportSelectionController.swift in Sources */,
+				003BD3D32468649F000730CA /* Segue.swift in Sources */,
+				0022B414247A092D0093E9A7 /* ReportDescriptionController.swift in Sources */,
+				003BD3CD246856A8000730CA /* LinkHelpController.swift in Sources */,
+				00188C8424674D890060B2D9 /* TruSourceReportBuilder.xcdatamodeld in Sources */,
+				00F1A32D24736319004896B9 /* APIUploadController.swift in Sources */,
+				00E898A3249860F400D2E778 /* Filter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00188C8724674D8A0060B2D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00188C8824674D8A0060B2D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00188C8C24674D8A0060B2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00188C8D24674D8A0060B2D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		00188C8F24674D8A0060B2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TruSourceReportBuilder/TruSourceReportBuilder.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AZ9RF3J6S7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = TruSourceReportBuilder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = goodcodeman.TruSourceReportBuilder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		00188C9024674D8A0060B2D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TruSourceReportBuilder/TruSourceReportBuilderRelease.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = AZ9RF3J6S7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = TruSourceReportBuilder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = goodcodeman.TruSourceReportBuilder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00188C7624674D890060B2D9 /* Build configuration list for PBXProject "TruSourceReportBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00188C8C24674D8A0060B2D9 /* Debug */,
+				00188C8D24674D8A0060B2D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00188C8E24674D8A0060B2D9 /* Build configuration list for PBXNativeTarget "TruSourceReportBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00188C8F24674D8A0060B2D9 /* Debug */,
+				00188C9024674D8A0060B2D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00188C8224674D890060B2D9 /* TruSourceReportBuilder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00188C8324674D890060B2D9 /* TruSourceReportBuilder.xcdatamodel */,
+			);
+			currentVersion = 00188C8324674D890060B2D9 /* TruSourceReportBuilder.xcdatamodel */;
+			path = TruSourceReportBuilder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00188C7324674D890060B2D9 /* Project object */;
+}

@@ -1,0 +1,14 @@
+1. finish conflict handling for rest of filter types ( even if some are blank should account)
+    - check blanks real quick, test
+
+2. have collectionview and everything use the Filterable protocol instead of filter so that bundles will work
+    MAKE BUNDLES UNEDITABLE but still be able to see description
+
+3. have to add include as a direction, just reverse in the closure and make sue the description makes sense
+
+4. allow emply filter bodies if is actually possible in the report
+
+figure out what phone type is
+
+	3)	 - once done, clean up all modified controllers ( begin with filter controller)
+	4)	- input next
